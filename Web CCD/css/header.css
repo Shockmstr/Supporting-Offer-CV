@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+}
+
+#header {
+    display: grid;
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(background/computer-mac-pc.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(background/computer-mac-pc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
+}
+
+#logo {
+    text-align: center;
+    margin: 60px 0px 90px 0px;
+    max-width: 100%;
+    height: auto;
+}
+
+#introText {
+    text-align: center;
+}
+
+#introText1 {
+    color: gray;
+    /*font-size: 350%;*/
+    font-size: 4vw;
+}
+
+#introText2 {
+    color: gainsboro;
+    font-size: 1.5vw;
+    line-height: 1.8;
+}
+
+#container_introText3 {
+    margin-top: 235px;
+}
+
+#introText3 {
+    color: gray;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+#introText3:hover {
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    #introText1 {
+        color: aqua;
+        font-size: 5vw;
+    }
+    #introText2,
+    #introText3 {
+        color: aqua;
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #introText1 {
+        color: chartreuse;
+        font-size: 11vw;
+    }
+    #introText2,
+    #introText3 {
+        color: chartreuse;
+        font-size: 4vw;
+    }
+}
