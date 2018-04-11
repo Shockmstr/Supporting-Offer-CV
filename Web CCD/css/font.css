@@ -3,10 +3,21 @@
     src: url(fonts/Roboto-Regular.ttf);
 }
 
-.roboto350 {
+@font-face {
+    font-family: roboto-light;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+.robotoLight {
+    font-family: roboto-light;
+    font-style: normal;
+    font-weight: 200;
+}
+
+.roboto300 {
     font-family: roboto;
     font-style: normal;
-    font-weight: 350;
+    font-weight: 300;
 }
 
 .roboto400 {
